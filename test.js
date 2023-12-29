@@ -15,8 +15,8 @@ if(null == window.scriptLoadedHowndProof) {
         }
     }
     var a = document.getElementsByClassName('linkOverride');
-    //a[1].addEventListener('click',fn);
-    //fn();
+    a[1].addEventListener('click',fn);
+    fn();
     window.scriptLoadedHowndProof=true;
 }
 */
