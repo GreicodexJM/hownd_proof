@@ -1,6 +1,8 @@
 console.log("Script loaded");
+/*
 if(null == window.scriptLoadedHowndProof) {
     function fn() {
+        console.log("FN called");
         var col=document.getElementsByClassName("kid-birthday")[0].getElementsByClassName("block");
         for(var i =0;i<col.length;i++) {
             var e = col.item(e);
@@ -13,7 +15,8 @@ if(null == window.scriptLoadedHowndProof) {
         }
     }
     var a = document.getElementsByClassName('linkOverride');
-    a[1].addEventListener('click',fn);
-    fn();
+    //a[1].addEventListener('click',fn);
+    //fn();
     window.scriptLoadedHowndProof=true;
 }
+*/
